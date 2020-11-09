@@ -1,0 +1,31 @@
+.match-score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.end-message,
+p {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.score-back-button {
+    width: 140px;
+    height: 40px;
+    font-size: 1.3rem;
+    color: white;
+    border: 1px solid black;
+    background-image: linear-gradient(to right, #3E1F49, #1D176B);
+    margin-bottom: 150px;
+    align-self: center;
+}
+
+#user-name {
+    padding: 10px 5px;
+    width: 270px;
+    font-size: 1.3rem;
+    text-align: center;
+}

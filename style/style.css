@@ -1,0 +1,36 @@
+body {
+    font-size: 62.5rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 2rem;
+    color: wheat;
+}
+
+.wrapper {
+    background-image: url(../img/backgroundPhoto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    opacity: .95;
+}
+
+.game-area {
+    background-color: rgba(0, 0, 0, 0.74);
+    width: 60vw;
+    height: 70vh;
+    margin-left: 50%;
+    transform: translate(-50%, 25%);
+    border-radius: 25px;
+}
+
+.disabled {
+    display: none;
+}

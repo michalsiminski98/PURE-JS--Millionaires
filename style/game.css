@@ -1,0 +1,61 @@
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+}
+
+.question-number {
+    display: inline-block;
+    position: absolute;
+    font-size: 2.6rem;
+    color: wheat;
+    background-color: rgba(0, 0, 0, 0.74);
+    padding: 3px 25px;
+    top: -6vh;
+    left: 50px;
+}
+
+.game-question {
+    margin: 50px 20px 0 20px;
+    font-size: 2rem;
+    color: white;
+    flex-basis: 100%;
+}
+
+
+.game>button {
+    flex-basis: 250px;
+    margin: 0 100px;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    height: 50px;
+    background-image: linear-gradient(to right, #150f6b, #1D176B);
+    border: 1px solid black;
+    color: white;
+}
+
+.next-button {
+    opacity: .5;
+    cursor: auto;
+}
+
+.game>button:nth-last-child(1) {
+    flex-basis: 150px;
+}
+
+/* JS */
+.correctAnswer {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.game>.green-button {
+    background-image: linear-gradient(to right, #064e0c, #0d411a);
+    border: 2px solid black;
+}
+
+.game>.red-button {
+    background-image: linear-gradient(to right, #6e0909, #691616);
+    border: 2px solid black;
+}

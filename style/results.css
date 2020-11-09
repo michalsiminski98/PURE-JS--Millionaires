@@ -1,0 +1,37 @@
+.results {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+h2 {
+    margin-top: 10px;
+    align-self: center;
+}
+
+ul {
+    list-style-type: decimal;
+}
+
+li {
+    margin-left: 4vw;
+    margin-top: 2vh;
+    font-size: 2rem;
+    color: white;
+}
+
+.results-back-button {
+    width: 140px;
+    height: 40px;
+    font-size: 1.3rem;
+    color: white;
+    border: 1px solid black;
+    background-image: linear-gradient(to right, #3E1F49, #1D176B);
+    margin-bottom: 150px;
+    align-self: center;
+}
+
+.results-back-button:hover {
+    opacity: .9;
+}

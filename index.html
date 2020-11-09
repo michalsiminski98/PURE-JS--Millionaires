@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/menu.css">
+    <link rel="stylesheet" href="style/results.css">
+    <link rel="stylesheet" href="style/match-score.css">
+    <link rel="stylesheet" href="style/game.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="game-area">
+            <div class="menu">
+                <h1>Milionerzy</h1>
+                <button class="menu-button menu-button-play">Graj</button>
+                <button class="menu-button menu-button-results">Wyniki</button>
+            </div>
+            <div class="game disabled">
+                <h2 class="question-number">Pytanie #<span>0</span></h2>
+                <h3 class="game-question"></h3>
+                <button class="game-first-answer"></button>
+                <button class="game-second-answer"></button>
+                <button class="game-third-answer"></button>
+                <button class="game-fourth-answer"></button>
+                <button class="next-button">Dalej</button>
+                <button class="game-button-score disabled">Wynik</button>
+            </div>
+            <div class="match-score disabled">
+                <h2>Koniec gry</h2>
+                <input type="text" name="user-name" id="user-name">
+                <p class="end-message">Łącznie zdobyłeś: <span class="end-points">0</span> zł</p>
+                <button class="score-back-button">Zakończ</button>
+            </div>
+            <div class="results disabled">
+                <h2>Rekordowe wyniki</h2>
+                <ul>
+                    <li class="first-place">Player - <span class="first-place-reward">0</span>zł</li>
+                    <li class="second-place">Player - <span class="second-place-reward">0</span>zł</li>
+                    <li class="third-place">Player - <span class="third-place-reward">0</span>zł</li>
+                </ul>
+                <button class="results-back-button">Wróć</button>
+            </div>
+        </div>
+    </div>
+    <script src="script/buttons.js"></script>
+    <script src="script/game.js"></script>
+    <script src="script/bestPlayers.js"></script>
+</body>
+
+</html>
